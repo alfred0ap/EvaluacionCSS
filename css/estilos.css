@@ -1,14 +1,25 @@
 body{
     font-family: Dancing Script;
+    background-color: #02010a;
 }
 header {
 	
-border-radius: 10px;
-	
+border-radius: 10px;	
+
 background-color: #5b7989;
+width: 100%;
+top: 0;
 }
 header h1{
     text-align: left;
     color: white;
     text-shadow: 2px 2px 2px #02010a;
 }
+#menu-principal {
+    
+    float: right;
+}
+#imagen {
+background-color: #82c3a6; 
+}
+
