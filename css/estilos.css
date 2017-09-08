@@ -106,3 +106,53 @@ div [class*="blof"]{
     box-shadow: 2px 2px 2px #82c3a6;  
     border: 2px #02010a solid;
 }
+/*seccion paisajes contenedor*/
+div [class*="imge"]{
+    min-height: 300px;
+    flex: 1 2 3 auto;
+}
+.imge1 {
+    order: 1;
+    width: 33%;
+}
+.imge2 {
+    order: 1;
+    width: 33%;
+}
+.imge3 {
+    order: 1;
+    width: 33%;
+}
+.imge4 {
+    order: 1;
+    width: 33%;
+}
+.imge5 {
+    order: 1;
+    width: 33%;
+}
+.imge6 {
+    order: 1;
+    width: 33%;
+}
+#conteimg{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #82c3a6;
+    width: 100%;
+  }
+ .imge1 img, .imge2 img, .imge3 img, .imge4 img, .imge5 img, .imge6 img{
+    margin-left: 17%;
+    margin-top: 27%;
+ }
+ /*efectos imaganes*/
+ .imge2 img, .imge4 img, .imge6 img{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); 
+ }
+ .imge1 img{
+    filter: blur(10px);
+ }
+ .imge3 img{
+    filter: sepia(100%);
+ }
