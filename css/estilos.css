@@ -65,11 +65,18 @@ div [class*="bloque"]{
     width: 90%;
     margin-left: 5%;
 }
+/*esta parte es el pie de pagina*/
 footer {
     background-color: #C6d5c5;
     display: flex;
     flex-flow: row wrap;
     border-radius: 0px 0px 10px 10px;
+}
+footer h2{
+    text-align: center;
+}
+footer p{
+    text-align: center;
 }
 div [class*="blof"]{
     min-height: 100px;
