@@ -163,3 +163,17 @@ div [class*="imge"]{
  .imge3 img{
     filter: sepia(100%);
  }
+ /*medias*/
+ @media only screen and (max-width: 900px) {
+    .contenido {
+        width: 100%;
+    }
+}
+ 
+@media only screen and (min-width: 900px) {
+    /* For mobile phones: */
+    .contenido {
+        width: 100%;
+    }
+    
+}
